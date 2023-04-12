@@ -1,0 +1,60 @@
+.pricing {
+  width: 100%;
+  padding: 2rem 1rem;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.contenuto {
+  background: rgba(0, 0, 0, 0.4);
+}
+.trip-container {
+  max-width: 1140px;
+  margin: auto;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(1, 1fr);
+  padding: 1rem;
+}
+
+.trip-container .trip {
+  border: 1px solid white;
+  color: white;
+  text-shadow: 1px 1px 0px black;
+  border-radius: 20px;
+}
+
+.trip {
+  text-align: center;
+  padding: 1rem;
+}
+.trip:hover {
+  background-color: black;
+}
+
+.trip h3 {
+  font-size: 1.4rem;
+  padding: 1rem;
+  text-shadow: 2px 2px 0px black;
+}
+.trip p {
+  font-size: 1.4rem;
+  padding: 1rem;
+  text-shadow: 2px 2px 2px black;
+}
+.trip .bar {
+  border-bottom: 1px solid white;
+  width: 10%;
+  margin: 1.5rem auto;
+  display: block;
+}
+
+.trip .btc {
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.trip .btn {
+  display: block;
+  width: 80%;
+  margin: 2rem auto;
+}

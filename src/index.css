@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap");
+
+h1,
+h4,
+h3,
+p,
+a {
+  color: whitesmoke !important;
+  text-shadow: 2px 2px 0px black !important;
+}
+
+body {
+  margin: 0 !important;
+  font-family: BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif,
+    "Outfit", sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: rgba(0, 0, 0, 0.8) !important;
+}
+
+ul {
+  list-style-type: none !important;
+  text-shadow: 2px 2px 0px black !important;
+}
+a {
+  text-decoration: none !important;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.btn {
+  padding: 12px 32px !important;
+  font-size: 1.2rem !important;
+  text-transform: uppercase !important;
+  background: transparent !important;
+  color: white !important;
+  border: 1px solid white !important;
+  cursor: pointer !important;
+  text-shadow: 2px 2px 2px black !important;
+}
+
+.btn-light {
+  background: rgba(255, 255, 255, 0.2) !important;
+}
+
+.btn:hover {
+  background: rgba(255, 255, 255, 0.2) !important;
+}
